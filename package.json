@@ -1,6 +1,7 @@
 {
-  "name": "quintolunes",
-  "version": "1.0.0",
+ "name": "NuevoLUNES",
+
+ "version": "1.0.0",
   "description": "iniciando npm",
   "main": "App.js",
   "scripts": {
