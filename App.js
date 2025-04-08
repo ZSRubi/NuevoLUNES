@@ -1,1 +1,5 @@
-console.log("hola mundo rubis ") 
+const showMessage=(message)=>{
+    return message;
+}
+console.log(showMessage('hola coo etas'))
+console.log("segundo ")
