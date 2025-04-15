@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <%=title%>
+        <%if(showMessage){%>
+            <%=message%>
+        <%}else{%>
+            este es un mensaje por defecto
+        <%}%>
+        <u1>
+        <% for(let i=0;i<items.lenght;i++){%>
+            <li><%=items[i]%></li>
+        <%}%>
+
+        </u1>
+
+    </head>
+    <body>
+        <h1>primera pagina</h1>
+    </body>
+</html>
